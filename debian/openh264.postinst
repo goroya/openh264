@@ -5,8 +5,8 @@ SERVER=http://ciscobinary.openh264.org/
 FILENAME=libopenh264-${OPENH264_VERSION}-linux64.so.bz2
 LIBRARY_NAME=libopenh264-${OPENH264_VERSION}-linux64.so
 SHA256SUM_BZ2="da3789f75b537327fd8757abb6ea449d8363a473cece57e661dff3502cac36e6"
-LIBRARY_DESTINATION=/usr/lib/x86_64-linux-gnu/libopenh264.so.0
-LIBRARY_LINK=/usr/lib/x86_64-linux-gnu/libopenh264.so
+LIBRARY_DESTINATION=/usr/lib/aarch64-linux-gnu/libopenh264.so.0
+LIBRARY_LINK=/usr/lib/aarch64-linux-gnu/libopenh264.so
 
 if [ -f $FILENAME ]; then
     rm $FILENAME
